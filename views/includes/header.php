@@ -21,8 +21,8 @@ if (session_status() === PHP_SESSION_NONE) {
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4 shadow">
             <div class="container">
-                <a class="navbar-brand fw-bold" href="index.php?route=profile">RESERVA 1350</a>
-
+                <a class="navbar-brand" href="index.php?route=profile">
+                    <img src="<?= BASE_URL ?>/views/assets/uploads/logo.png" style="max-height: 60px; width: 180px;"> </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>

@@ -3,8 +3,9 @@
 
         <div class="card shadow-sm border-0">
             <div class="card-body p-4">
-                <h2 class="card-title text-center mb-4 fw-bold text-secondary">DeskReserva</h2>
-
+                <img src="<?= BASE_URL ?>/views/assets/uploads/logo.png"
+                    class="d-block mx-auto mb-4"
+                    style="max-width: 200px; width: 100%; height: auto;">
                 <?php if (!empty($erro)): ?>
                     <div class="alert alert-danger py-2" role="alert">
                         <?= htmlspecialchars($erro) ?>
@@ -30,7 +31,7 @@
                     </div>
 
                     <button type="submit" class="btn btn-primary btn-lg w-100 fs-6 fw-bold mt-2">Entrar</button>
-                   
+
                     <div class="mb-3 text-end">
                         <a href="<?= BASE_URL ?>/index.php?route=forgot_password" class="text-decoration-none small text-muted">Esqueci minha senha</a>
                     </div>
